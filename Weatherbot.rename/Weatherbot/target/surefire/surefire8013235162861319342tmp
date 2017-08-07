@@ -1,0 +1,6 @@
+#surefire
+#Sat Sep 03 20:09:10 IST 2016
+user.dir=/home/somesh/workspace2/Weatherbot
+HEROKU_API_KEY=0961dbef-0ee0-4179-899e-b8f894371de4
+localRepository=/home/somesh/.m2/repository
+basedir=/home/somesh/workspace2/Weatherbot
