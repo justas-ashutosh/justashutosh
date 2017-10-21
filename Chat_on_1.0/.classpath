@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="News_Test"/>
-	<classpathentry kind="src" path="Wit_Integration_test"/>
-	<classpathentry kind="src" path="Open_Weather_Integration"/>
-	<classpathentry kind="src" path="nasa_api"/>
-	<classpathentry kind="src" path="Email_config"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_71">
+	<classpathentry kind="src" path="News"/>
+	<classpathentry kind="src" path="map"/>
+	<classpathentry kind="src" path="Mail_Contoller"/>
+	<classpathentry kind="src" path="Registration"/>
+	<classpathentry kind="src" path="Reporter"/>
+	<classpathentry kind="src" path="Cart_Logic"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_71">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
@@ -17,7 +18,19 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
-	<classpathentry kind="lib" path="C:/Users/Somesh/Downloads/apache-tomcat-7.0.70-windows-x64/jsoup-1.10.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="C:/Users/Somesh/Downloads/apache-tomcat-7.0.70-windows-x64/json-20160212.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Somesh/Downloads/mailactivation/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Somesh/Downloads/mailactivation/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Somesh/Downloads/My jars/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Somesh/Downloads/My jars/mysql-connector-java-5.1.44-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Somesh/Downloads/My jars/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry kind="con" path="net.sf.jasperreports.JR_CONTAINER"/>
+	<classpathentry kind="con" path="net.sf.jasperreports.JR_DEPENDENCIES_CONTAINER"/>
+	<classpathentry kind="con" path="com.jaspersoft.server.JRS_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Somesh/Downloads/templates/jstl.jar/jstl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Somesh/Downloads/standard.jar/standard.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Somesh/Downloads/jsp-api-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Somesh/Downloads/jstl-1.2.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

@@ -2,11 +2,12 @@
     <wb-module deploy-name="Chat_on_1.0">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/News_Test"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Wit_Integration_test"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Open_Weather_Integration"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/nasa_api"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Email_config"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/News"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/map"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Mail_Contoller"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Registration"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Reporter"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Cart_Logic"/>
         <property name="context-root" value="Chat_on_1.0"/>
         <property name="java-output-path" value="/Chat_on_1.0/build/classes"/>
     </wb-module>

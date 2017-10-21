@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="style/Mystyle.css">
+<script type="text/javascript" src="Java_script/myscript.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-scope" content="profile email">
+<meta name="google-signin-client_id"
+	content="170460504823-g7qq5cu745r27b3q92thlv31eqm4ics9.apps.googleusercontent.com">
+<style>
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	margin-bottom: 64px;
+	text-align: center;
+	font-family: arial;
+}
+
+.container {
+	padding: 0 16px;
+}
+
+.container::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.title {
+	color: grey;
+	font-size: 18px;
+}
+
+button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+}
+
+button:hover {
+	opacity: 0.7;
+}
+
+#mybut {
+	border: 20px aqua black;
+	border-bottom-left-radius: 15px;
+	margin-bottom: 15px;
+	margin-left: 90px;
+}
+</style>
+<title>Admin@E-Sewa</title>
+</head>
+<body>
+	<header>
+		<h1 class="styletext">
+			<i>E - Gas Sewa</i>
+		</h1>
+		<div class="topnav" id="myTopnav">
+			<div class="dropdown" style="float: right;">
+				<button class="dropbtn">About-Us</button>
+				<div class="dropdown-content">
+					<a href="Breif.html"><u><b>Breif About</b></u></a> <a
+						href="Achivement.html"><u><b>Achivements</b></u></a> <a
+						href="Vision.html"><u><b>Our - Vision</b></u></a>
+				</div>
+			</div>
+			<a href="Home.html" style="float: right;">Home</a> <a href="News.jsp">News</a>
+			<a href="Search.jsp">Our Networks</a> <a href="Reg.jsp">Login &
+				Sign-Up</a> <a href="Admin.html">Administrators</a> <a
+				href="javascript:void(0);" style="font-size: 15px;" class="icon"
+				onclick="myFunction()">&#9776;</a>
+		</div>
+	</header>
+	<div class="container1">
+		<h2 style="text-align: center">
+			<u>Administrator Login</u>
+		</h2>
+		<div class="card">
+			<div class="container">
+				<h1> Maintained By <i>Ashutosh Mishra</i></h1>
+				<p class="title">CEO & Founder,</p>
+				<p>E - Gas Sewa</p>
+				<div id=mybut class="g-signin2" data-onsuccess="onSignIn"></div>
+			</div>	
+		</div>
+	</div>
+	<script>
+		
+	</script>
+	<footer>
+		Copyright &copy; AKM Corporation <br> <a id=one href="Home.html"
+			style="float: right;">Home</a> <a id=one href="News.jsp"
+			style="float: right;">News</a> <a id=one href="Search.jsp"
+			style="float: left;">Our Networks</a> <a id=one href="Reg.jsp"
+			style="float: left;">Login & Sign-up</a> <a id=one href="Product.jsp"
+			style="float: left;">Our Products</a> <br>
+	</footer>
+</body>
+</html>

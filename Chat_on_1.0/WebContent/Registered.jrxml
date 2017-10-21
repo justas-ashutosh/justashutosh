@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.0.final using JasperReports Library version 6.4.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Registered" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="cd271642-5b98-4bac-9270-4e11f1cecc08">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
+	<queryString language="SQL">
+		<![CDATA[Select * from  test1.customer]]>
+	</queryString>
+	<field name="username" class="java.lang.String"/>
+	<field name="pass" class="java.lang.String"/>
+	<field name="email" class="java.lang.String"/>
+	<field name="pno" class="java.lang.String"/>
+	<field name="addhar" class="java.lang.String"/>
+	<group name="username">
+		<groupExpression><![CDATA[$F{username}]]></groupExpression>
+	</group>
+	<group name="pass">
+		<groupExpression><![CDATA[$F{pass}]]></groupExpression>
+	</group>
+	<group name="email">
+		<groupExpression><![CDATA[$F{email}]]></groupExpression>
+	</group>
+	<group name="pno">
+		<groupExpression><![CDATA[$F{pno}]]></groupExpression>
+	</group>
+	<group name="addhar">
+		<groupExpression><![CDATA[$F{addhar}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="58" splitType="Stretch">
+			<staticText>
+				<reportElement x="120" y="18" width="320" height="30" uuid="1fb089fc-ad48-493a-835e-a51cd5c7e22c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="18"/>
+				</textElement>
+				<text><![CDATA[List of Registered Customers]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="460" y="10" width="100" height="30" uuid="86322736-d705-4f1a-bc17-3e74f762d2b6"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="4" y="6" width="100" height="30" uuid="b99511b5-3fea-4096-989d-fe7a08beadb6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[E Gas - Sewa System Report ]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="8" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="77" splitType="Stretch">
+			<staticText>
+				<reportElement x="2" y="32" width="100" height="30" uuid="7b657206-c382-4e0e-b55f-a9bdcc08ea93"/>
+				<text><![CDATA[username]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="143" y="32" width="100" height="30" uuid="2dc15013-d380-4b0d-a7fc-f8ab8b6b78b5"/>
+				<text><![CDATA[email]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="294" y="32" width="100" height="30" uuid="bb785043-bc10-49ff-8810-c7b5f83559f6"/>
+				<text><![CDATA[pno]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="433" y="33" width="100" height="30" uuid="533a90e9-befa-4d96-a1bf-623c84d52b22"/>
+				<text><![CDATA[addhar]]></text>
+			</staticText>
+			<line>
+				<reportElement x="1" y="72" width="550" height="1" uuid="78e0f9d6-63f7-4cb5-b05f-045e156743df">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="93" splitType="Stretch">
+			<textField>
+				<reportElement x="1" y="24" width="100" height="30" uuid="44aa6779-5241-40fb-a5be-eb3991c41ee4"/>
+				<textFieldExpression><![CDATA[$F{username}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="143" y="20" width="100" height="30" uuid="d7e54430-9cc0-4061-a6f4-2eca02b46293"/>
+				<textFieldExpression><![CDATA[$F{email}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="299" y="24" width="100" height="30" uuid="6b06be7d-cd83-404d-8b75-1120707e86f5"/>
+				<textFieldExpression><![CDATA[$F{pno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="436" y="25" width="100" height="30" uuid="b8fe5465-6848-4103-a91a-5dff5546e880"/>
+				<textFieldExpression><![CDATA[$F{addhar}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="1" y="72" width="550" height="1" uuid="3695235b-79e1-4014-a3c5-767beb5c6edc">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="66" splitType="Stretch">
+			<line>
+				<reportElement x="1" y="35" width="550" height="1" uuid="80f7e59c-b8c1-4d92-9039-b65f59b1ba0b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="65" splitType="Stretch">
+			<textField>
+				<reportElement x="276" y="35" width="100" height="30" uuid="a3865a05-0117-4bc9-acef-dfe61f35eaf1"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
